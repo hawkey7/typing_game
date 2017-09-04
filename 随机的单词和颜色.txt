@@ -1,0 +1,5 @@
+
+//随机单词
+this.words = ['function', 'var', 'if', 'else', 'document', 'getElementById', 'return', 'true', 'false', 'getElementsByTagName', 'offsetX', 'offsetY', 'clientX', 'clientY', 'pageX', 'pageY', 'offsetLeft', 'offsetTop', 'clientLeft', 'clientTop', 'offsetWidth', 'offsetHeight', 'clientWidth', 'clientHeight', 'scrollLeft', 'scrollTop','children','childNodes','appendChild','removeChild','cloneNode','arguments','getAttribute','setAttribute','setInterval','setTimeout'];
+//随机颜色
+this.color = ['#9a00fa', '#f7072c', '#f7ad07', '#ee07f7','#040148', '#0cf727'];

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	canvas{
+		display: block;
+		margin: 50px auto;
+		box-shadow: 3px 3px 5px 2px #999 ;
+	}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="400" height="400"></canvas>
+</body>
+</html>
+<script>
+	var drawing = document.getElementById("canvas")
+	var context = drawing.getContext("2d");
+	
+	// context.fillStyle = "rgba(255,0,0,0.4)"
+	// context.fillRect(10,10,380,380);
+
+	context.strokeStyle = "#999";
+	// for ( var i = 0 ; i < 21 ; i++ ){
+	// 	context.moveTo(10+20*i,10);
+	// 	context.lineTo(10+20*i,390);
+	// 	context.moveTo(10,10+20*i);
+	// 	context.lineTo(390,10+20*i);
+	// 	context.stroke();
+	// }
+	// context.fillStyle = "#f00"
+	// context.fillRect(10,10,50,50)
+	// context.fillStyle = "#0f0"
+	// context.fillRect(30,30,50,50)
+	// context.clearRect(40,40,10,10)
+
+</script>
